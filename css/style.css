@@ -94,4 +94,57 @@ body, html {
   color: #e1b12c;
   font-size: 32px;
 }
+
+/* SPLASH */
+.splash {
+  background-image: url(https://images.pexels.com/photos/2599270/pexels-photo-2599270.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+  height: 80vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.splash-inner {
+  font-size: 16px;
+}
+
+.splash-inner .page-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+}
+
+.splash-inner .page-subtitle {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 75px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 300px;
+  font-family: "Archivo Black", sans-serif;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-size: 1.5em;
+  border-width: 2px;
+  border-style: solid #e1b12c;
+  color: #fff;
+  background: #e1b12c;
+}
 /*# sourceMappingURL=style.css.map */

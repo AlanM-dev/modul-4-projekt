@@ -100,3 +100,55 @@ body, html {
         font-size: 32px;
     }
 }
+
+/* SPLASH */
+
+.splash {
+    background-image: url(https://images.pexels.com/photos/2599270/pexels-photo-2599270.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);   
+    background-position: center center;
+    background-size: cover;
+    color: $color-two;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.splash-inner {
+    font-size: 16px;
+
+    .page-title {
+        font-family: $font-text;
+        font-size: 50px;   
+        text-align: center;   
+        margin: 0;  
+    }
+
+    .page-subtitle {
+        font-family: $font-title;
+        font-size: 75px;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 300px;
+    font-family: $font-title;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    font-size: 1.5em;
+    border-width: 2px;
+    border-style: solid $color-three;
+    color: $color-two;
+    background: $color-three;
+    
+}
