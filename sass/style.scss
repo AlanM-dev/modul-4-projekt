@@ -83,4 +83,20 @@ body, html {
 
 .nav-list {
     text-align: right;
+    font-family: $font-title;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.nav-title {
+    font-family: $font-text;
+    
+    a {
+        color: $color-three;
+        font-size: 32px;
+    }
 }

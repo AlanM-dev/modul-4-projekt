@@ -74,5 +74,24 @@ body, html {
 
 .nav-list {
   text-align: right;
+  font-family: "Archivo Black", sans-serif;
+}
+
+.nav-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: end;
+      align-items: flex-end;
+}
+
+.nav-title {
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-title a {
+  color: #e1b12c;
+  font-size: 32px;
 }
 /*# sourceMappingURL=style.css.map */
