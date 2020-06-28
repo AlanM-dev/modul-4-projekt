@@ -7,6 +7,8 @@ $color-three: #e1b12c;
 $font-title: 'Archivo Black', sans-serif;
 $font-text: 'Montserrat', sans-serif;
 
+$transition: all 1s;
+
 /* GLOBAL */
 
 *, *::before, *::after {
@@ -236,7 +238,7 @@ section {
 }
 
 .portfolio-box {
-    flex: 0 0 32%
+    flex: 0 0 31%
 }
 
 .portfolio-text {
@@ -255,4 +257,62 @@ section {
     text-align: center;
     margin-top: 0;
     padding-bottom: 25px;
+}
+
+/* FOOTER */
+
+.footer-one {
+    background: $color-two;
+    padding: 40px;
+
+    p {
+       font-weight: bold;
+       font-size: 13px;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        display: inline-block;
+        font-size: 0px;
+        -webkit-transition: -webkit-transform 1s;
+        transition: $transition;
+        &:hover {
+            -webkit-transform: scale(1.3);
+            transform: scale(1.3); 
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    i {
+        background: $color-one;
+        font-size: 23px;
+        color: $color-two;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        text-align: center;
+    }
+}
+
+.ftr-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+
+.ftr-p {
+    flex: 0 0 42%
+}
+
+.ftr-social {
+    flex: 0 0 50%
 }
