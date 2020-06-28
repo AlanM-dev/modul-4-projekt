@@ -12,7 +12,7 @@ body, html {
 }
 
 section {
-  padding: 96px 0;
+  padding: 80px 0;
 }
 
 /* NAVIGATION */
@@ -168,10 +168,15 @@ section {
 .services-container {
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
 }
 
 .services-box {
-  padding: 55px 30px;
+  -ms-flex: 0 0 30%;
+      flex: 0 0 30%;
 }
 
 .services-container i {
@@ -192,4 +197,63 @@ section {
 }
 
 /* OUR PORTFOLIO */
+.portfolio {
+  background: #e1e1e1;
+}
+
+.portfolio-title {
+  text-align: center;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.portfolio-subtitle {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.portfolio-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.portfolio-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-top: 40px;
+  opacity: 1;
+}
+
+.portfolio-image img:hover {
+  opacity: 0.5;
+}
+
+.portfolio-box {
+  -ms-flex: 0 0 32%;
+      flex: 0 0 32%;
+}
+
+.portfolio-text {
+  background: #fff;
+}
+
+.portfolio-box-title {
+  text-align: center;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding-top: 25px;
+}
+
+.portfolio-box-text {
+  text-align: center;
+  margin-top: 0;
+  padding-bottom: 25px;
+}
 /*# sourceMappingURL=style.css.map */
