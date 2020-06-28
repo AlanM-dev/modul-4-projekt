@@ -14,15 +14,10 @@ $font-text: 'Montserrat', sans-serif;
 }
 
 body, html {
-    background-color: #333;
     color: $color-one;
     font-size: 16px;
     font-family: $font-text;
     margin: 0;
-}
-
-.container {
-    background: $color-two;
 }
 
 .section {
@@ -33,6 +28,10 @@ body, html {
 
 .navigation {
     padding: 12px 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99;
 
     ul {
         margin: 0;
@@ -71,7 +70,7 @@ body, html {
 
     a {
         text-decoration: none;
-        color: $color-one;
+        color: $color-two;
     }
 }
 
@@ -112,6 +111,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .splash-inner {
