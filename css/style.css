@@ -11,7 +11,7 @@ body, html {
   margin: 0;
 }
 
-.section {
+section {
   padding: 96px 0;
 }
 
@@ -147,4 +147,49 @@ body, html {
   color: #fff;
   background: #e1b12c;
 }
+
+/* SERVICES */
+.services {
+  background: #fff;
+}
+
+.serives-title {
+  text-align: center;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.services-subtitle {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.services-container {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.services-box {
+  padding: 55px 30px;
+}
+
+.services-container i {
+  display: block;
+  font-size: 40px;
+  text-align: center;
+  color: #e1b12c;
+}
+
+.services-box-title {
+  text-align: center;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 20px;
+}
+
+.services-box-text {
+  text-align: center;
+}
+
+/* OUR PORTFOLIO */
 /*# sourceMappingURL=style.css.map */
