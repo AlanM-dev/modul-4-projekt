@@ -15,13 +15,17 @@ section {
   padding: 80px 0;
 }
 
+/* HERO */
+.hero {
+  background-image: url(https://images.pexels.com/photos/2599270/pexels-photo-2599270.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-position: center center;
+  background-size: cover;
+}
+
 /* NAVIGATION */
 .navigation {
   padding: 12px 0;
-  position: absolute;
-  top: 0;
   width: 100%;
-  z-index: 99;
 }
 
 .navigation ul {
@@ -96,18 +100,15 @@ section {
 
 /* SPLASH */
 .splash {
-  background-image: url(https://images.pexels.com/photos/2599270/pexels-photo-2599270.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-  background-position: center center;
-  background-size: cover;
   color: #fff;
-  height: 80vh;
+  height: 100vh;
+  min-height: 1000px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-  position: relative;
 }
 
 .splash-inner {
@@ -223,6 +224,7 @@ section {
 }
 
 .portfolio-image img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -315,5 +317,12 @@ section {
 .ftr-social {
   -ms-flex: 0 0 50%;
       flex: 0 0 50%;
+}
+
+@media (max-width: 768px) {
+  .cont {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
 }
 /*# sourceMappingURL=style.css.map */
